@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First JavaScript</title>
+
+  <!-- icon link -->
+   <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <!-- ex1 -->
+    <h2 class="text-danger">Ex.1 - Click the button to show the text</h2>
+    <button type="button" class="btn btn-dark" onclick="showText()">Show Text</button>
+    <h3 id="s_text"></h3>
+<hr>
+    <!-- ex2 -->
+    <h2 class="text-danger">Ex.2 - Click the button to show the date</h2>
+    <button type="button" class="btn btn-dark" onclick="showDate()">Show Date</button>
+    <h3 id="s_date"></h3>
+<hr>
+    <!-- ex3 -->
+    <h2 class="text-danger">Ex.3 - Click the button to turn on or off the bulb</h2>
+    <button onclick="bulbOn()" class="btn btn-dark">Bulb On</button>
+    <button onclick="bulbOff()" class="btn btn-dark">Bulb Off</button>
+    <img id="img" src="images/off.gif" alt="">
+<hr>
+    <!-- ex4 -->
+    <h2 class="text">Ex.4 - On Mouse Over the button to turn on or off the light</h2>
+    <button onmouseover="bulbOnO1()" class="btn btn-primary">Bulb On</button>
+    <button onmouseover="bulbOff2()" class="btn btn-warning">Bulb Off</button>
+    <img id="imge" src="images/off.gif" alt="">
+<hr>
+    <!-- ex5 -->
+    <h2 class="text">Ex.5 - Click the button to print the current page</h2>
+    <button type="button" class="btn btn-primary" onclick="window.print()">Print Page</button>
+    <h3 id="page_print"></h3>
+<hr>
+    <!-- ex6 -->
+    <h2 id="color">Ex.6 - Change the text Color</h2>
+    <button type="button" class="btn btn-dark" onclick="textColor()">Change</button>
+<hr>
+    <!-- ex7 -->
+    <h2 class="text-warning" id="50px">Ex.7 - Change the text Size</h2>
+    <button type="button" class="btn btn-primary" onclick="textSize()">Lets Change</button>
+<hr>
+    <!-- ex-08 -->
+    <h2>Ex.8 - Text Hide or Show</h2>
+    <button type="button" class="btn btn-primary" onclick="textHide()">Hide</button>
+    <button type="button" class="btn btn-warning" onclick="textShow()">Show</button>
+    <p id="text">Khagrachari is a district in the Chittagong Division of Southeastern Bangladesh. It is a part of the Chittagong Hill Tracts region.</p>
+<hr>
+<!-- ex-09 -->
+    
+    
+    
+  
+
+
+    
+
+  <!-- script link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
